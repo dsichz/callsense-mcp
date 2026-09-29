@@ -1,0 +1,44 @@
+{
+  "id": "call_006",
+  "date": "2026-09-18",
+  "rep": "Igor",
+  "customer": "Granite Yard",
+  "deal_id": 1046,
+  "language": "en",
+  "synthetic": true,
+  "source": "call-scoring-harness data/graded/call_006.json",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Good afternoon, this is about the tender documents."
+    },
+    {
+      "speaker": "customer",
+      "text": "We are comparing you with two other offers. Yours is the most expensive."
+    },
+    {
+      "speaker": "rep",
+      "text": "I hear you."
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there anything you can do on the number?"
+    },
+    {
+      "speaker": "rep",
+      "text": "Let me check with the director and come back to you."
+    },
+    {
+      "speaker": "customer",
+      "text": "When?"
+    },
+    {
+      "speaker": "rep",
+      "text": "Tomorrow before noon, I will call you."
+    },
+    {
+      "speaker": "customer",
+      "text": "Ok, tomorrow before noon."
+    }
+  ]
+}

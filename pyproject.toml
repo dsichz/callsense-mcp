@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "callsense-mcp"
+version = "0.1.0"
+description = "MCP server that scores sales calls against a team playbook and refuses any score without a verbatim quote from the call"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Artem Baranov"}]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.2,<3",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+claude = ["anthropic>=1.0"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+callsense-mcp = "callsense_mcp.__main__:main"
+
+[tool.setuptools]
+packages = ["callsense_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

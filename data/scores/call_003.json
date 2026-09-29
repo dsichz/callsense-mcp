@@ -1,0 +1,32 @@
+{
+  "call_id": "call_003",
+  "rules_version": 2,
+  "scored_by": "human label (data/graded)",
+  "scored_at": "2026-09-16T00:00:00+00:00",
+  "scores": [
+    {
+      "rule_id": "next_step_committed",
+      "value": true,
+      "quote": "If the replacement is clean, let's do the winter order in October.",
+      "turn": 6
+    },
+    {
+      "rule_id": "objection_handled",
+      "value": true,
+      "quote": "That is on us. The reason nobody called is the driver reported it to the wrong desk. I have the photos, we replace both pallets this week at no cost.",
+      "turn": 3
+    },
+    {
+      "rule_id": "qualification_asked",
+      "value": true,
+      "quote": "Is it still you who approves reorders, or has that moved to procurement?",
+      "turn": 5
+    },
+    {
+      "rule_id": "churn_risk",
+      "value": true,
+      "quote": "We are not happy with the last delivery, two pallets came damaged and nobody called us.",
+      "turn": 2
+    }
+  ]
+}

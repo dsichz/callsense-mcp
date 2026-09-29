@@ -1,0 +1,36 @@
+{
+  "id": "call_004",
+  "date": "2026-09-16",
+  "rep": "Anna",
+  "customer": "Polar Racks",
+  "deal_id": 1044,
+  "language": "en",
+  "synthetic": true,
+  "source": "call-scoring-harness data/graded/call_004.json",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Calling about the price list update for next quarter."
+    },
+    {
+      "speaker": "customer",
+      "text": "Prices are going up again? We might pause orders until spring then."
+    },
+    {
+      "speaker": "rep",
+      "text": "Prices move four percent, and only on the aluminium range. Steel stays. What if we fix the steel price for you until March in writing?"
+    },
+    {
+      "speaker": "customer",
+      "text": "In writing, yes, that would work. Send it over."
+    },
+    {
+      "speaker": "rep",
+      "text": "I will send it today. When do you need the first spring batch?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Early March. Let's do Monday for the call to confirm quantities."
+    }
+  ]
+}

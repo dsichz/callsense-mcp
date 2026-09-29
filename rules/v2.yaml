@@ -1,0 +1,23 @@
+# Copied from call-scoring-harness rules/v2.yaml. Added: `speaker`, who has to say the evidence.
+version: 2
+description: >
+  Tightened after the first production week. `objection_handled` now requires the rep's reply to address
+  the content of the objection, not just follow it. Added `quote_required` to every rule, enforced by the harness.
+quote_required: true
+rules:
+  - id: next_step_committed
+    speaker: customer
+    question: Did the rep get the customer to agree to a concrete next step with a date or an owner?
+    evidence: A sentence where a date, a day, or a named action is agreed by the customer. "I'll send it" without a date does not count.
+  - id: objection_handled
+    speaker: rep
+    question: Did the rep respond to a customer objection by addressing its content (price, timing, fit, trust)?
+    evidence: The rep's reply must name the objection's subject and offer a fact, an option, or a question about it. "I understand" alone does not count.
+  - id: qualification_asked
+    speaker: rep
+    question: Did the rep ask who decides and when the customer needs the product?
+    evidence: A question about decision maker, budget owner, or timeline.
+  - id: churn_risk
+    speaker: customer
+    question: Did the customer signal they may leave, pause, or switch?
+    evidence: Mentions of a competitor, a price comparison, a pause, or dissatisfaction with current service.

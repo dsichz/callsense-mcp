@@ -1,0 +1,57 @@
+{
+  "id": "call_006",
+  "language": "en",
+  "synthetic": true,
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Good afternoon, this is about the tender documents."
+    },
+    {
+      "speaker": "customer",
+      "text": "We are comparing you with two other offers. Yours is the most expensive."
+    },
+    {
+      "speaker": "rep",
+      "text": "I hear you."
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there anything you can do on the number?"
+    },
+    {
+      "speaker": "rep",
+      "text": "Let me check with the director and come back to you."
+    },
+    {
+      "speaker": "customer",
+      "text": "When?"
+    },
+    {
+      "speaker": "rep",
+      "text": "Tomorrow before noon, I will call you."
+    },
+    {
+      "speaker": "customer",
+      "text": "Ok, tomorrow before noon."
+    }
+  ],
+  "labels": {
+    "next_step_committed": {
+      "value": true,
+      "quote": "Ok, tomorrow before noon."
+    },
+    "objection_handled": {
+      "value": false,
+      "quote": ""
+    },
+    "qualification_asked": {
+      "value": false,
+      "quote": ""
+    },
+    "churn_risk": {
+      "value": true,
+      "quote": "We are comparing you with two other offers. Yours is the most expensive."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "call_004",
+  "language": "en",
+  "synthetic": true,
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Calling about the price list update for next quarter."
+    },
+    {
+      "speaker": "customer",
+      "text": "Prices are going up again? We might pause orders until spring then."
+    },
+    {
+      "speaker": "rep",
+      "text": "Prices move four percent, and only on the aluminium range. Steel stays. What if we fix the steel price for you until March in writing?"
+    },
+    {
+      "speaker": "customer",
+      "text": "In writing, yes, that would work. Send it over."
+    },
+    {
+      "speaker": "rep",
+      "text": "I will send it today. When do you need the first spring batch?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Early March. Let's do Monday for the call to confirm quantities."
+    }
+  ],
+  "labels": {
+    "next_step_committed": {
+      "value": true,
+      "quote": "Early March. Let's do Monday for the call to confirm quantities."
+    },
+    "objection_handled": {
+      "value": true,
+      "quote": "Prices move four percent, and only on the aluminium range. Steel stays. What if we fix the steel price for you until March in writing?"
+    },
+    "qualification_asked": {
+      "value": true,
+      "quote": "I will send it today. When do you need the first spring batch?"
+    },
+    "churn_risk": {
+      "value": true,
+      "quote": "Prices are going up again? We might pause orders until spring then."
+    }
+  }
+}

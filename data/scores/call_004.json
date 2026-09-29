@@ -1,0 +1,32 @@
+{
+  "call_id": "call_004",
+  "rules_version": 2,
+  "scored_by": "human label (data/graded)",
+  "scored_at": "2026-09-16T00:00:00+00:00",
+  "scores": [
+    {
+      "rule_id": "next_step_committed",
+      "value": true,
+      "quote": "Early March. Let's do Monday for the call to confirm quantities.",
+      "turn": 6
+    },
+    {
+      "rule_id": "objection_handled",
+      "value": true,
+      "quote": "Prices move four percent, and only on the aluminium range. Steel stays. What if we fix the steel price for you until March in writing?",
+      "turn": 3
+    },
+    {
+      "rule_id": "qualification_asked",
+      "value": true,
+      "quote": "I will send it today. When do you need the first spring batch?",
+      "turn": 5
+    },
+    {
+      "rule_id": "churn_risk",
+      "value": true,
+      "quote": "Prices are going up again? We might pause orders until spring then.",
+      "turn": 2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "call_007",
+  "date": "2026-09-22",
+  "rep": "Pavel",
+  "customer": "Severin Glass",
+  "deal_id": 1047,
+  "language": "en",
+  "synthetic": true,
+  "source": "written for callsense-mcp",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Hi, it's Pavel from the plant, calling about your October order of glazing beads."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yeah. Look, um, the last two batches came a week late, and the plant in Kaluga says they can ship in five days. So we are, uh, thinking about moving the October volume to them."
+    },
+    {
+      "speaker": "rep",
+      "text": "So Kaluga is promising five days. On our side the delay was the powder coating line, it was down for nine days in August. It is running again, and I can put your order on the first shift and ship in six days."
+    },
+    {
+      "speaker": "customer",
+      "text": "Six days is still not five."
+    },
+    {
+      "speaker": "rep",
+      "text": "True. I can also split the order, half on the tenth and half on the seventeenth, so your line never waits for a full batch."
+    },
+    {
+      "speaker": "customer",
+      "text": "Maybe. I need to talk to our production manager first."
+    },
+    {
+      "speaker": "rep",
+      "text": "Of course. I'll send you the split schedule by email."
+    },
+    {
+      "speaker": "customer",
+      "text": "Send it, we'll look at it at some point."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "call_005",
+  "language": "en",
+  "synthetic": true,
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Hi, checking in, anything you need from us this month?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, all good, the line is running."
+    },
+    {
+      "speaker": "rep",
+      "text": "Great. I will call again next month then."
+    },
+    {
+      "speaker": "customer",
+      "text": "Sure."
+    }
+  ],
+  "labels": {
+    "next_step_committed": {
+      "value": false,
+      "quote": ""
+    },
+    "objection_handled": {
+      "value": false,
+      "quote": ""
+    },
+    "qualification_asked": {
+      "value": false,
+      "quote": ""
+    },
+    "churn_risk": {
+      "value": false,
+      "quote": ""
+    }
+  }
+}

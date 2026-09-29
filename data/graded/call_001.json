@@ -1,0 +1,49 @@
+{
+  "id": "call_001",
+  "language": "en",
+  "synthetic": true,
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Good morning, this is Anna from the plant. You asked about the 40 mm profile last week."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes. Honestly we got a quote from another supplier and it is cheaper by about eight percent."
+    },
+    {
+      "speaker": "rep",
+      "text": "On price, the difference is the coating. Ours is galvanised on both sides, theirs is one side, which is why the eight percent."
+    },
+    {
+      "speaker": "customer",
+      "text": "Fine, but who signs this on your side is not my problem. I need it by the twentieth."
+    },
+    {
+      "speaker": "rep",
+      "text": "Understood. Who approves the purchase on your side, you or the plant director?"
+    },
+    {
+      "speaker": "customer",
+      "text": "The director. Send the offer by Thursday and I will sign on Friday."
+    }
+  ],
+  "labels": {
+    "next_step_committed": {
+      "value": true,
+      "quote": "Send the offer by Thursday and I will sign on Friday."
+    },
+    "objection_handled": {
+      "value": true,
+      "quote": "On price, the difference is the coating. Ours is galvanised on both sides, theirs is one side, which is why the eight percent."
+    },
+    "qualification_asked": {
+      "value": true,
+      "quote": "Who approves the purchase on your side, you or the plant director?"
+    },
+    "churn_risk": {
+      "value": true,
+      "quote": "Honestly we got a quote from another supplier and it is cheaper by about eight percent."
+    }
+  }
+}

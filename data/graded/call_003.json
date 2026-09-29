@@ -1,0 +1,49 @@
+{
+  "id": "call_003",
+  "language": "en",
+  "synthetic": true,
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Hello, this is Igor. You had questions about the frame order."
+    },
+    {
+      "speaker": "customer",
+      "text": "We are not happy with the last delivery, two pallets came damaged and nobody called us."
+    },
+    {
+      "speaker": "rep",
+      "text": "That is on us. The reason nobody called is the driver reported it to the wrong desk. I have the photos, we replace both pallets this week at no cost."
+    },
+    {
+      "speaker": "customer",
+      "text": "Then do that. And I want a call from you when they leave the warehouse."
+    },
+    {
+      "speaker": "rep",
+      "text": "You will get it. Is it still you who approves reorders, or has that moved to procurement?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Still me. If the replacement is clean, let's do the winter order in October."
+    }
+  ],
+  "labels": {
+    "next_step_committed": {
+      "value": true,
+      "quote": "If the replacement is clean, let's do the winter order in October."
+    },
+    "objection_handled": {
+      "value": true,
+      "quote": "That is on us. The reason nobody called is the driver reported it to the wrong desk. I have the photos, we replace both pallets this week at no cost."
+    },
+    "qualification_asked": {
+      "value": true,
+      "quote": "Is it still you who approves reorders, or has that moved to procurement?"
+    },
+    "churn_risk": {
+      "value": true,
+      "quote": "We are not happy with the last delivery, two pallets came damaged and nobody called us."
+    }
+  }
+}

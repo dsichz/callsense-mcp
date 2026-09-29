@@ -1,0 +1,20 @@
+# Copied from call-scoring-harness rules/v1.yaml. Added: `speaker`, who has to say the evidence.
+version: 1
+description: First playbook cut. Killed in production over rule `objection_handled` firing on polite deflections.
+rules:
+  - id: next_step_committed
+    speaker: customer
+    question: Did the rep get the customer to agree to a concrete next step with a date or an owner?
+    evidence: A sentence where a date, a day, or a named action is agreed. "I'll send it" without a date does not count.
+  - id: objection_handled
+    speaker: rep
+    question: Did the rep respond to a customer objection with substance?
+    evidence: Any rep reply after a customer objection.
+  - id: qualification_asked
+    speaker: rep
+    question: Did the rep ask who decides and when the customer needs the product?
+    evidence: A question about decision maker, budget owner, or timeline.
+  - id: churn_risk
+    speaker: customer
+    question: Did the customer signal they may leave or pause?
+    evidence: Mentions of a competitor, a price comparison, a pause, or dissatisfaction.

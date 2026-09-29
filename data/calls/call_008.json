@@ -1,0 +1,44 @@
+{
+  "id": "call_008",
+  "date": "2026-09-23",
+  "rep": "Anna",
+  "customer": "Lumen Storage",
+  "deal_id": 1048,
+  "language": "en",
+  "synthetic": true,
+  "source": "written for callsense-mcp",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Good morning, it's Anna from the plant. You asked for a quote on the shelving uprights."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes, we are opening a second warehouse in November and need about four hundred uprights."
+    },
+    {
+      "speaker": "rep",
+      "text": "Who signs off on the order for the new warehouse, you or the owner? And by when does the racking have to be standing?"
+    },
+    {
+      "speaker": "customer",
+      "text": "I sign up to two million, above that it's the owner. The racking has to be up by the twentieth of November."
+    },
+    {
+      "speaker": "rep",
+      "text": "Then the drawings need to be approved by mid-October. Can we go through them on Wednesday at eleven?"
+    },
+    {
+      "speaker": "customer",
+      "text": "Wednesday at eleven works, I'll bring our warehouse manager."
+    },
+    {
+      "speaker": "rep",
+      "text": "Good. The price stays as in the September quote."
+    },
+    {
+      "speaker": "customer",
+      "text": "Fine. We stopped buying from the other supplier two years ago, their uprights bent, so we are staying with you."
+    }
+  ]
+}

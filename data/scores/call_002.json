@@ -1,0 +1,32 @@
+{
+  "call_id": "call_002",
+  "rules_version": 2,
+  "scored_by": "human label (data/graded)",
+  "scored_at": "2026-09-16T00:00:00+00:00",
+  "scores": [
+    {
+      "rule_id": "next_step_committed",
+      "value": false,
+      "quote": "",
+      "turn": null
+    },
+    {
+      "rule_id": "objection_handled",
+      "value": false,
+      "quote": "",
+      "turn": null
+    },
+    {
+      "rule_id": "qualification_asked",
+      "value": false,
+      "quote": "",
+      "turn": null
+    },
+    {
+      "rule_id": "churn_risk",
+      "value": false,
+      "quote": "",
+      "turn": null
+    }
+  ]
+}

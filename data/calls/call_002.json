@@ -1,0 +1,36 @@
+{
+  "id": "call_002",
+  "date": "2026-09-15",
+  "rep": "Pavel",
+  "customer": "Oakline Windows",
+  "deal_id": 1042,
+  "language": "en",
+  "synthetic": true,
+  "source": "call-scoring-harness data/graded/call_002.json",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Hi, following up on the sample batch we sent."
+    },
+    {
+      "speaker": "customer",
+      "text": "We looked at it. The finish is fine. Timing is the issue, your lead time is six weeks and we cannot wait that long."
+    },
+    {
+      "speaker": "rep",
+      "text": "I understand."
+    },
+    {
+      "speaker": "customer",
+      "text": "So we will think about it."
+    },
+    {
+      "speaker": "rep",
+      "text": "Sure, I will send the catalogue again."
+    },
+    {
+      "speaker": "customer",
+      "text": "Ok."
+    }
+  ]
+}

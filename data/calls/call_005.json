@@ -1,0 +1,28 @@
+{
+  "id": "call_005",
+  "date": "2026-09-17",
+  "rep": "Pavel",
+  "customer": "Mira Facades",
+  "deal_id": 1045,
+  "language": "en",
+  "synthetic": true,
+  "source": "call-scoring-harness data/graded/call_005.json",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Hi, checking in, anything you need from us this month?"
+    },
+    {
+      "speaker": "customer",
+      "text": "No, all good, the line is running."
+    },
+    {
+      "speaker": "rep",
+      "text": "Great. I will call again next month then."
+    },
+    {
+      "speaker": "customer",
+      "text": "Sure."
+    }
+  ]
+}

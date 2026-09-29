@@ -1,0 +1,36 @@
+{
+  "id": "call_001",
+  "date": "2026-09-14",
+  "rep": "Anna",
+  "customer": "Kestrel Build",
+  "deal_id": 1041,
+  "language": "en",
+  "synthetic": true,
+  "source": "call-scoring-harness data/graded/call_001.json",
+  "turns": [
+    {
+      "speaker": "rep",
+      "text": "Good morning, this is Anna from the plant. You asked about the 40 mm profile last week."
+    },
+    {
+      "speaker": "customer",
+      "text": "Yes. Honestly we got a quote from another supplier and it is cheaper by about eight percent."
+    },
+    {
+      "speaker": "rep",
+      "text": "On price, the difference is the coating. Ours is galvanised on both sides, theirs is one side, which is why the eight percent."
+    },
+    {
+      "speaker": "customer",
+      "text": "Fine, but who signs this on your side is not my problem. I need it by the twentieth."
+    },
+    {
+      "speaker": "rep",
+      "text": "Understood. Who approves the purchase on your side, you or the plant director?"
+    },
+    {
+      "speaker": "customer",
+      "text": "The director. Send the offer by Thursday and I will sign on Friday."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "call_id": "call_006",
+  "rules_version": 2,
+  "scored_by": "human label (data/graded)",
+  "scored_at": "2026-09-16T00:00:00+00:00",
+  "scores": [
+    {
+      "rule_id": "next_step_committed",
+      "value": true,
+      "quote": "Ok, tomorrow before noon.",
+      "turn": 8
+    },
+    {
+      "rule_id": "objection_handled",
+      "value": false,
+      "quote": "",
+      "turn": null
+    },
+    {
+      "rule_id": "qualification_asked",
+      "value": false,
+      "quote": "",
+      "turn": null
+    },
+    {
+      "rule_id": "churn_risk",
+      "value": true,
+      "quote": "We are comparing you with two other offers. Yours is the most expensive.",
+      "turn": 2
+    }
+  ]
+}
