@@ -128,7 +128,7 @@ The baseline scores 100% on the six graded calls. As in the harness, that says s
 
 ## Data
 
-All calls are synthetic. call_001 to call_006 and the labels in `data/graded/` are copied from call-scoring-harness: B2B calls shaped after a Russian-speaking manufacturer's, written in English and labelled by hand. call_007 and call_008 were written for this repository and are not in the graded set. Rep and company names are made up. No client data is in this repository.
+All calls are synthetic. call_001 to call_006 and the labels in `data/graded/` are copied from call-scoring-harness: B2B sales calls in manufacturing, written in English and labelled by hand. call_007 and call_008 were written for this repository and are not in the graded set. Rep and company names are made up. No client data is in this repository.
 
 The shipped store has the six graded calls scored from their human labels (`python -m callsense_mcp seed` rebuilds that) and call_007 and call_008 unscored.
 

@@ -1,5 +1,7 @@
 # Live run: Claude Code scores two calls through callsense-mcp
 
+> Note: after this run the place name in the synthetic call_007 was changed. The quotes below are updated to match the data; nothing else in the log was edited.
+
 Recorded on 2026-09-29, one run, not repeated or edited. Local paths are replaced with `<store copy>`.
 
 - Client: Claude Code 2.1.282 in print mode (`claude -p`), model `claude-opus-5-5`, no model flag passed.
@@ -58,7 +60,7 @@ Both score sets were accepted on the first submission. Claude copied every quote
 | next_step_committed | false |  |  | yes |
 | objection_handled | true | 3 | On our side the delay was the powder coating line, it was down for nine days in August. It is running again, and I can put your order on the first shift and ship in six days. | yes |
 | qualification_asked | false |  |  | yes |
-| churn_risk | true | 2 | the plant in Kaluga says they can ship in five days. So we are, uh, thinking about moving the October volume to them. | yes |
+| churn_risk | true | 2 | the plant in Porto says they can ship in five days. So we are, uh, thinking about moving the October volume to them. | yes |
 
 **call_008**
 
@@ -78,7 +80,7 @@ The last column compares with what each call was written to show (`data/calls/ca
 > **Team report**
 > - **Verdicts:** 4 healthy (001, 003, 004, 008), 2 need follow-up (002, 005) and 2 are at risk (006, 007).
 > - **At risk:**
->   - **call_007, Pavel / Severin Glass:** the customer said "the plant in Kaluga says they can ship in five days… thinking about moving the October volume to them." Pavel answered the late deliveries well: he explained the coating-line outage and offered a 6-day ship date or a split delivery. But the customer only agreed to "look at it at some point," so there's no next step.
+>   - **call_007, Pavel / Severin Glass:** the customer said "the plant in Porto says they can ship in five days… thinking about moving the October volume to them." Pavel answered the late deliveries well: he explained the coating-line outage and offered a 6-day ship date or a split delivery. But the customer only agreed to "look at it at some point," so there's no next step.
 >   - **call_006, Igor / Granite Yard:** the customer is comparing them against two other offers and called theirs "the most expensive." Nobody answered the price objection.
 > - **Pavel needs coaching:** in all 3 of his calls he got no next step and asked no qualification questions. None of his calls are healthy.
 > - **Anna:** all 3 calls are healthy, with a next step and qualification questions in every one.
