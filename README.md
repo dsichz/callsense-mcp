@@ -2,7 +2,7 @@
 
 An MCP server that turns Claude (Claude Desktop, Claude Code, or an agent built on the Agent SDK) into a sales-call analyst for a team's own playbook. Claude reads the call and scores it. The server decides what gets saved: a score is accepted only with a quote copied from the call, said by the right side of the conversation.
 
-It is built on [call-scoring-harness](https://github.com/dsichz/call-scoring-harness), the evaluation pattern behind a call-intelligence pipeline that has been running for a manufacturer's sales team since June 2026. The rules, the synthetic calls and the quote check come from there.
+It is built on [call-scoring-harness](https://github.com/dsichz/call-scoring-harness), the evaluation pattern behind a call-intelligence pipeline that has been running since June 2026, with two client sales teams so far. The rules, the synthetic calls and the quote check come from there.
 
 ## Why the evidence guard is the product
 
